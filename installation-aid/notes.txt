@@ -1,0 +1,4 @@
+Copy the file to here: C:\xampp\apache\conf\extra
+
+cp installation-aid\httpd-vhosts.conf C:\xampp\apache\conf\extra\
+cp installation-aid\config.inc.php C:\xampp\phpMyAdmin\

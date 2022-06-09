@@ -1,0 +1,1 @@
+{{ route('horicon.cms.faqs.edit', $notification->data['id']) }}

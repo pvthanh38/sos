@@ -1,0 +1,443 @@
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-weight: 400;
+    line-height: 1.1;
+    color: inherit
+}
+
+.h1, h1 {
+    font-size: 2.25rem
+}
+
+.h2, h2 {
+    font-size: 1.875rem
+}
+
+.h3, h3 {
+    font-size: 1.5rem
+}
+
+.h4, h4 {
+    font-size: 1.125rem
+}
+
+.h5, h5 {
+    font-size: .9375rem
+}
+
+.h6, h6 {
+    font-size: .75rem
+}
+
+.dropdown-lg {
+    width: 320px;
+}
+
+/** TOP NAV **/
+.topnav-navbar {
+    padding: 0;
+    margin: 0;
+    min-height: 70px
+}
+
+.topnav-navbar .topnav-logo {
+    line-height: 70px;
+    float: left;
+    padding-right: 20px;
+    min-width: 160px
+}
+
+.topnav-navbar .topnav-logo img {
+    height: 16px;
+}
+
+.topnav-navbar .topnav-logo .topnav-logo-sm {
+    display: none
+}
+
+.topnav-navbar .navbar-toggle {
+    position: relative;
+    cursor: pointer;
+    float: left;
+    margin: 27px 20px;
+    padding: 0;
+    background-color: transparent;
+    border: none
+}
+
+.topnav-navbar .navbar-toggle .lines {
+    width: 25px;
+    display: block;
+    position: relative;
+    height: 16px;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease
+}
+
+.topnav-navbar .navbar-toggle span {
+    height: 2px;
+    width: 100%;
+    background-color: rgba(49, 58, 70, .8);
+    display: block;
+    margin-bottom: 5px;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+    transition: transform .5s ease, -webkit-transform .5s ease
+}
+
+.topnav-navbar .navbar-toggle.open span {
+    position: absolute
+}
+
+.topnav-navbar .navbar-toggle.open span:first-child {
+    top: 7px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg)
+}
+
+.topnav-navbar .navbar-toggle.open span:nth-child(2) {
+    visibility: hidden
+}
+
+.topnav-navbar .navbar-toggle.open span:last-child {
+    width: 100%;
+    top: 7px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg)
+}
+
+.topnav {
+    background: -webkit-gradient(linear, left top, left bottom, from(#8f75da), to(#727cf5));
+    background: linear-gradient(to bottom, #8f75da, #727cf5)
+}
+
+.topnav .topnav-menu {
+    margin: 0;
+    padding: 0
+}
+
+.topnav .navbar-nav .nav-link {
+    font-size: .9375rem;
+    position: relative;
+    padding: 1rem 1.3rem
+}
+
+.navbar-custom {
+    padding: 0 30px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 35px 0 rgba(154, 161, 171, .15);
+    box-shadow: 0 0 35px 0 rgba(154, 161, 171, .15);
+    margin: -5px -20px 0;
+    min-height: 70px
+}
+
+.navbar-custom .topbar-left {
+    background-color: #fff;
+    height: 70px;
+    position: fixed;
+    z-index: 1;
+    width: 250px;
+    text-align: center;
+    top: 0;
+    left: 0
+}
+
+.navbar-custom .topbar-left .logo {
+    line-height: 70px
+}
+
+.navbar-custom .topbar-left .logo i {
+    display: none
+}
+
+.navbar-custom .topbar-right-menu li {
+    float: left;
+}
+
+.navbar-custom .topbar-right-menu .nav-link {
+    padding: 0;
+    color: #98a6ad;
+    min-width: 32px;
+    display: block;
+    text-align: center;
+    margin: 0 8px;
+}
+
+.app-search {
+    padding: 16px 0;
+    overflow: hidden
+}
+
+.app-search form {
+    max-width: 320px
+}
+
+.app-search .form-control {
+    border: none;
+    height: 38px;
+    padding-left: 40px;
+    padding-right: 20px;
+    background-color: #f1f3fa;
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+.app-search span {
+    position: absolute;
+    z-index: 10;
+    font-size: 20px;
+    line-height: 38px;
+    left: 10px
+}
+
+.app-search .input-group-append {
+    margin-left: 0;
+    z-index: 4
+}
+
+.nav-user {
+    padding: 12px 20px 12px 57px !important;
+    text-align: left !important;
+    position: relative;
+    background-color: #fafbfd;
+    border: 1px solid #f1f3fa;
+    border-width: 0 1px;
+    min-height: 70px
+}
+
+.nav-user .account-user-avatar {
+    position: absolute;
+    top: 19px;
+    left: 15px
+}
+
+.nav-user .account-user-avatar img {
+    height: 32px;
+    width: 32px
+}
+
+.nav-user .account-position {
+    display: block;
+    font-size: 12px;
+    margin-top: -3px
+}
+
+.nav-user .account-user-name {
+    display: block;
+    font-weight: 600
+}
+
+.notification-list {
+    margin-left: 0
+}
+
+.notification-list .dropdown-menu.dropdown-menu-right {
+    -webkit-transform: none !important;
+    transform: none !important;
+    top: 100% !important;
+    right: 0 !important;
+    left: auto !important;
+    padding: .25rem 0;
+}
+
+.notification-list .noti-title {
+    background-color: #fff;
+    padding: 15px 20px
+}
+
+.notification-list .noti-icon {
+    font-size: 22px;
+    vertical-align: middle;
+    line-height: 70px
+}
+
+.notification-list .noti-icon-badge {
+    display: inline-block;
+    position: absolute;
+    top: 16px;
+    right: 5px;
+    display: inline-block;
+    position: absolute;
+    top: 22px;
+    right: 15px;
+    border-radius: 50%;
+    height: 7px;
+    width: 7px;
+    background-color: #fa5c7c
+}
+
+.notification-list .notify-item {
+    padding: 10px 20px
+}
+
+.notification-list .notify-item .notify-icon {
+    float: left;
+    height: 36px;
+    width: 36px;
+    line-height: 36px;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 50%;
+    color: #fff
+}
+
+.notification-list .notify-item .notify-details {
+    margin-bottom: 0;
+    overflow: hidden;
+    margin-left: 45px;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.notification-list .notify-item .notify-details b {
+    font-weight: 500
+}
+
+.notification-list .notify-item .notify-details small {
+    display: block
+}
+
+.notification-list .notify-item .notify-details span {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 13px
+}
+
+.notification-list .notify-item .user-msg {
+    margin-left: 45px;
+    white-space: normal;
+    line-height: 16px
+}
+
+.notification-list .profile-dropdown .notify-item {
+    padding: 7px 20px
+}
+
+.footer {
+    border-top: 1px solid rgba(152, 166, 173, .2);
+    padding: 19px 30px 20px;
+    color: #98a6ad;
+}
+
+.footer .footer-links a {
+    color: #98a6ad;
+    margin-left: 1.5rem;
+    -webkit-transition: all .4s;
+    transition: all .4s
+}
+
+.footer .footer-links a:hover {
+    color: #313a46
+}
+
+.footer .footer-links a:first-of-type {
+    margin-left: 0
+}
+
+.arrow-none:after {
+    display: none
+}
+
+@media (max-width: 1024px) {
+    .navbar-custom {
+        left: 70px;
+        right: 0
+    }
+
+    .app-search {
+        display: none
+    }
+}
+
+@media (min-width: 992px) {
+    body[data-layout=topnav] .container-fluid {
+        max-width: 85%
+    }
+
+    .topnav .navbar-nav .nav-item:first-of-type .nav-link {
+        padding-left: 0
+    }
+
+    .topnav .dropdown .dropdown-menu {
+        margin-top: 0;
+        border-radius: 0 0 .25rem .25rem
+    }
+
+    .topnav .dropdown .dropdown-menu .arrow-down::after {
+        right: 15px;
+        -webkit-transform: rotate(-135deg) translateY(-50%);
+        transform: rotate(-135deg) translateY(-50%);
+        position: absolute
+    }
+
+    .topnav .dropdown .dropdown-menu .dropdown .dropdown-menu {
+        position: absolute;
+        top: 0;
+        left: 100%;
+        display: none
+    }
+
+    .topnav .dropdown:hover > .dropdown-menu {
+        display: block
+    }
+
+    .topnav .dropdown:hover > .dropdown-menu > .dropdown:hover > .dropdown-menu {
+        display: block
+    }
+
+    .navbar-toggle {
+        display: none
+    }
+}
+
+@media (max-width: 991.98px) {
+    .topnav-navbar .topnav-logo-lg {
+        display: none
+    }
+
+    .topnav .navbar-nav .nav-link {
+        padding: .75rem 1.3rem
+    }
+
+    .topnav .dropdown .dropdown-menu {
+        background-color: transparent;
+        border: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        padding-left: 15px
+    }
+
+    .topnav .dropdown .dropdown-item {
+        position: relative;
+        color: rgba(255, 255, 255, .5);
+        background-color: transparent
+    }
+
+    .topnav .dropdown .dropdown-item.active, .topnav .dropdown .dropdown-item:active {
+        color: #fff
+    }
+
+    .topnav .arrow-down::after {
+        right: 15px;
+        position: absolute
+    }
+}
+
+@media (max-width: 767.98px) {
+    .navbar-custom {
+        left: 0;
+        padding: 0 10px;
+        margin: -5px -10px 0
+    }
+
+    .nav-user {
+        padding: 17px 5px 17px 57px !important
+    }
+
+    .nav-user .account-position, .nav-user .account-user-name {
+        display: none
+    }
+}
